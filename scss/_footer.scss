@@ -1,0 +1,40 @@
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+    margin: 2% 1% 0.3%;
+align-items: flex-start;
+    h3 {
+        color: $color-light-xl;
+    }
+
+    h4 {
+        color: $color-primary;
+    }
+
+
+
+    .london,
+    .boston,
+    .mail,
+    .phone {
+        display: flex;
+
+    }
+
+    .contact {
+
+
+        .footer-puppy {
+            width: 100%;
+        }
+
+    }
+
+
+}
+
+.footer-puppy2 {
+    display: none;
+}

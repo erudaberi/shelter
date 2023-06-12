@@ -1,0 +1,77 @@
+.donation {
+    background-color: $color-light-l;
+    display: flex;
+    justify-content: center;
+
+    .donation-content {
+        width: 64%;
+        display: flex;
+        // flex-wrap: nowrap;
+        // flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-bottom: 1%;
+
+
+        .donat-dog {
+            width: 100%;
+        }
+
+        .content-card {
+            h3 {
+                color: $color-dark-l;
+                margin-top: 25%;
+                margin-bottom: 0%;
+            }
+
+            h5 {
+                color: $color-dark-l;
+            }
+
+            img {
+                width: 8%;
+            }
+
+            h4 {
+                color: $color-dark-l;
+                margin: 0;
+            }
+
+            .card {
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                max-width: 92%;
+                border-radius: 9px;
+                border: none;
+                background-color: #f1cdb3;
+                padding: 10px 15px 10px 10px;
+
+                a {
+                    font-family: 'Georgia';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 115%;
+                    text-decoration: none;
+                    align-items: center;
+                    letter-spacing: 0.06em;
+
+                }
+
+
+
+            }
+
+            p {
+                color: $color-dark-m;
+                font-family: 'Arial';
+                font-style: italic;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 18px;
+            }
+        }
+
+    }
+}

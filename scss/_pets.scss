@@ -1,0 +1,68 @@
+.pets {
+    padding: 6% 3.2% 9%;
+    background-color: $color-light-l;
+    text-align: center;
+
+    .btn-left {
+        display: none;
+    }
+
+    h3 {
+        color: $color-dark-l;
+        margin-bottom: 5%;
+        margin-top: 0;
+    }
+
+    .pets-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 5%;
+    }
+
+    .slider-item {
+        background-color: $color-light-s;
+        border-radius: 9px;
+
+        img {
+            width: 100%;
+        }
+
+    }
+
+    a {
+        text-decoration: none;
+        background-color: $color-primary;
+        gap: 10px;
+        padding: 15px 45px;
+        border-radius: 100px;
+        color: $color-dark-3xl;
+        margin-top: 20%;
+        font-size: 17px;
+    }
+
+    button {
+        padding: 19px;
+        border-radius: 100px;
+        border: 2px solid #F1CDB3;
+        background-color: $color-light-l;
+    }
+
+    h4 {
+        color: $color-dark-l;
+    }
+
+    .learn-more {
+        padding: 15px 45px;
+        background-color: $color-light-s;
+        font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 130%;
+        color: $color-dark-3xl;
+        letter-spacing: 0.06em;
+        margin-bottom: 11%;
+    }
+}

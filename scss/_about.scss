@@ -1,0 +1,30 @@
+.about {
+    background-color: $color-light-xl;
+
+    .about-text {
+        width: 40%;
+    }
+
+    .about-content {
+        padding: 6.4% 3.2% 7.8%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        img {
+            width: 100%;
+        }
+
+    }
+
+    h3 {
+        color: $color-dark-l;
+        margin: 0;
+    }
+
+    p {
+        color: $color-dark-xl;
+        font-size: 15px;
+    }
+
+}
